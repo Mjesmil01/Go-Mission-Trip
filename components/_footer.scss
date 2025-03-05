@@ -1,0 +1,32 @@
+.footer {
+  background-color: $clr-blue;
+  padding: 3rem 0;
+
+  ul {
+    @include centerAll;
+    align-items: start;
+    gap: 5rem;
+
+    li {
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $clr-light;
+      }
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+    color: $clr-light;
+    margin-top: 2rem;
+  }
+
+  &__social {
+    i {
+      font-size: 2rem;
+      color: $clr-light;
+      margin: 2rem 0.5rem 0;
+    }
+  }
+}
